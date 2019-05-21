@@ -4,7 +4,9 @@ Try your best to answer each question on your own before looking up the answer o
 
 
 #### 1. What is a method in Ruby? How is it different or similar to functions in JavaScript?
-Ruby methods are essentially built in functions that are used on specific datatypes. for example if you have an array of strings that you want to sort alphabetically you can just call array.sort and this built in method will alphabetically sort your array, as opposed to building a function to do the same thing from scratch.
+(old answer) Ruby methods are essentially built in functions that are used on specific datatypes. for example if you have an array of strings that you want to sort alphabetically you can just call array.sort and this built in method will alphabetically sort your array, as opposed to building a function to do the same thing from scratch.
+(new answer)
+methods in Ruby are essentially the same as JS functions just called methods.
 #### 2. What does it mean that a class inherits from another class? Try to explain Ruby inheritance.
 
 When a class is created from a parent/super class that new subclass inherits any initialized values or methods created in the parent. for example if I initialize an attribute of @timeofday = "night" in my parent and create a subclass, that subclass will have inherited the @timeofday attribute with it being set to "night".
